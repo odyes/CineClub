@@ -1,0 +1,155 @@
+
+@import url("../css/fonts.css");
+:root{
+    --fondoGris: #1E1E1E;
+    --azul: #5CC0DB;
+    --morado: #5C44DB;
+    --negro: #000;
+    --grisOscuro: #171717;
+    --blanco: #fff;
+    --gris-blanco: #D9D9D9;
+}
+
+body {
+  font-family: "cocoLight";
+  color: var(--blanco);
+  background-color: var(--fondoGris);
+}
+
+.login {
+  width: 725px;
+  height: 860px;
+  left: 502px;
+  top: 128px;
+  margin: 16px auto;
+  font-size: 16px;
+  background-color: var(--grisOscuro);
+  border-radius: 73px;
+}
+
+.login-header, .login p {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  
+}
+
+.header-login img{
+    position: absolute;
+    width: 72px;
+    height: 65px;
+    left: 850px;
+    top: 70px;
+}
+.header-login h1{
+    font-family: "retroyalBold";
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    width: 97px;
+    height: 38px;
+    left: 930px;
+    top: 70px; 
+}
+.header-login h2{
+    position: absolute;
+    width: 125px;
+    height: 50px;
+    left: 900px;
+    top: 140px;
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+
+    
+    text-align: center;
+}
+.header-login p{
+    position:absolute;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    width: 528px;
+    height: 76px;
+    left: 700px;
+    top: 170px;
+}
+
+.login p {
+  padding: 12px;
+}
+
+.login input {
+  display: block;
+  width: 80%;
+  padding: 16px;
+  outline: 0;
+  font-size: 18px;
+  
+}
+
+.email{
+    position: absolute;
+    left:700px ;
+    top: 250px;
+    width: 600px;
+}
+
+.login-container p{
+    color: var(--azul);
+}
+.password{
+    position: absolute;
+    left:700px ;
+    top: 450px;
+    width: 600px;
+}
+.inicio{
+    position: absolute;
+    left:700px ;
+    top: 650px;
+    width: 600px;
+}
+
+.login input[type="email"],
+.login input[type="password"] {
+  background: var(--gris-blanco);
+  border-radius: 12px;
+  color: var(--morado);
+  font-family: "retroyalBold";
+}
+
+/* Text fields' focus effect */
+.login input[type="email"]:focus,
+.login input[type="password"]:focus {
+  border-color: var(--morado);
+  border-width: 3px;
+ 
+}
+
+input[type="submit"] {
+  background: var(--morado);
+  cursor: pointer;
+  border-radius:12px ;
+  color: var(--blanco);
+  font-family: "cocoLight";
+  font-size: 18px;
+  width: 86%;
+  padding: 14px;
+  position: absolute;
+  left: 10px;
+}
+
+input[type="submit"]:hover {
+  background: var(--azul);
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}

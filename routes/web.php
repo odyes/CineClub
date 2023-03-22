@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdministradoresController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,8 +15,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('administradores.index'); //cuando esta dentro de una carpeta, poner nombre de la capeta . nombre del documento
 });
 
-Route::get('/administradores', [AdministradoresController::class, 'index']);
+Route::get('/calendario', function () {
+    return view('administradores.calendario'); //cuando esta dentro de una carpeta, poner nombre de la capeta . nombre del documento
+});
+
+Route::get('/iniciarSesion', function () {
+    return view('administradores.inicarSesion'); //cuando esta dentro de una carpeta, poner nombre de la capeta . nombre del documento
+});
+
+Route::get('/registroPelicula', function () {
+    return view('administradores.registroPelicula'); //cuando esta dentro de una carpeta, poner nombre de la capeta . nombre del documento
+});
    

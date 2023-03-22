@@ -1,0 +1,224 @@
+
+@import url("../css/fonts.css");
+:root{
+    --fondoGris: #1E1E1E;
+    --azul: #5CC0DB;
+    --morado: #5C44DB;
+    --negro: #000;
+    --grisOscuro: #171717;
+    --blanco: #fff;
+    --gris-blanco: #D9D9D9;
+}
+
+body {
+  font-family: "cocoLight";
+  color: var(--blanco);
+  background-color: var(--fondoGris);
+}
+
+.container-1{
+    background-color: var(--grisOscuro);
+    width: 725px;
+    height: 860px;
+    left: 502px;
+    top: 128px;
+    margin: 16px auto;
+    font-size: 16px;
+    background-color: var(--grisOscuro);
+    border-radius: 73px;
+}
+
+.container-1 h1{
+    position: absolute;
+    height: 50px;
+    left: 800px;
+    top: 30px;
+    
+    font-family: "cocoBold";
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 50px;
+   
+    
+    text-align: center;
+}
+.container-1 p{
+    color: var(--azul);
+}
+
+input[type="datetime-local"]{
+    background: var(--gris-blanco);
+    border-radius: 12px;
+    color: var(--morado);
+    font-family: "retroyalBold";
+    width: 550px;
+    padding: 16px;
+    font-size: 18px;
+}
+input[type="text"], input[type="file"]{
+    background: var(--gris-blanco);
+    border-radius: 12px;
+    color: var(--morado);
+    font-family: "retroyalBold";
+    width: 40%;
+    padding: 14px;
+    font-size: 18px;
+}
+input[type="number"]{
+    background: var(--gris-blanco);
+    border-radius: 12px;
+    color: var(--morado);
+    font-family: "retroyalBold";
+    width: 40%;
+    padding: 14px;
+    font-size: 18px;
+}
+input[type="text"]:focus, input[type="datetime-local"]:focus, input[type="number"]:focus, input[type="file"]:focus{
+    border-color: var(--morado);
+    border-width: 3px;
+}
+
+input[type="submit"]{
+    background: var(--morado);
+    cursor: pointer;
+    border-radius:12px ;
+    color: var(--blanco);
+    font-family: "cocoLight";
+    font-size: 18px;
+    width: 20%;
+    padding: 14px;
+    left: 780px;
+    top: 800px;
+    position: absolute;
+}
+input[type="submit"]:hover{
+    background: var(--azul);
+}
+input[type="file"]{
+    width: 27%;
+    position: absolute;
+    top: 670px;
+    left: 660px;
+    padding: 30px;
+}
+
+.dd-genero{
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+    left: 650px;
+    top: 575px;
+    font-family: "cocoLight";
+}
+.genero p{
+    left: 658px;
+    top: 535px;
+    position: absolute;
+}
+.dd-genero select{
+    font-family: "cocoBold";
+    background-color: var(--gris-blanco);
+    color: var(--morado);
+    font-size: inherit;
+    padding: 14px;	
+    border: 0px;
+    margin: 0;
+    border-radius: 8px;
+    text-indent: 0.01px;
+}
+.dd-genero select:focus{
+    border-color: var(--morado);
+    border-width: 3px;
+}
+
+.dd-actores{
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+    left: 880px;
+    top: 575px;
+    font-family: "cocoLight";
+}
+.actores p{
+    left: 890px;
+    top: 540px;
+    position: absolute;
+}
+.dd-actores select{
+    font-family: "cocoBold";
+    background-color: var(--gris-blanco);
+    color: var(--morado);
+    font-size: inherit;
+    padding: 14px;	
+    border: 0px;
+    margin: 0;
+    border-radius: 8px;
+    text-indent: 0.01px;
+}
+
+.fecha{
+    position: absolute;
+    width: 513px;
+    height: 54px;
+    left: 660px;
+    top: 125px;
+}
+.titulo{
+    position: absolute;
+    width: 513px;
+    height: 54px;
+    left: 660px;
+    top: 225px;
+}
+.descripcion{
+    position: absolute;
+    width: 1380px;
+    height: 54px;
+    left: 660px;
+    top: 325px;
+}
+.año{
+    position: absolute;
+    width: 200px;
+    height: 54px;
+    left: 660px;
+    top: 425px;
+} 
+.duracion{
+    position: absolute;
+    width: 270px;
+    height: 54px;
+    left: 815px;
+    top: 425px;
+}
+.director input{
+    position: absolute;
+    left: 990px;
+    top: 476px;
+    width: 220px;
+}
+.director p{
+    position: absolute;
+    left: 990px;
+    top: 425px;
+}
+fieldset {
+    margin-bottom: 30px;
+    border: none;
+}
+
+.registro-genero img{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 825px;
+    top: 588px;
+    
+}
+
+
+
+

@@ -1,0 +1,16 @@
+@font-face{
+    font-family: "cocoBold";
+    src: url("../assets/fonts/cocoBold.ttf");
+}
+@font-face{
+    font-family: "cocoLight";
+    src: url("../assets/fonts/cocoLight.ttf");
+}
+@font-face{
+    font-family: "retroyalBold";
+    src: url("../assets/fonts/retroyalBold.ttf");
+}
+@font-face{
+    font-family: "retroyalNormal";
+    src: url("../assets/fonts/retroyalNormal.ttf");
+}
