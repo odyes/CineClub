@@ -16,7 +16,7 @@
             <a href="/index.html"></a>
             <ul>
                 <li class="pro"><a href="/index.html"><input type="button" value="Programación de hoy"></a></li>
-                <li class="cal"><a href="/paginas/calendario.html">Calendario</a></li>
+                <li class="cal"><a href="{{route('calendario')}}">Calendario</a></li>
                 <li class="pel">Películas</li>
                 <img src="/assets/icons/cuadrito.png" alt="searchBlack">
                 <li class="ini"><a href="/paginas/iniciarSesion.html"><input type="button" value="Iniciar sesión"></a></li>

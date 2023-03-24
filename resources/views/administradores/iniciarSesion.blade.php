@@ -26,8 +26,8 @@
             </form>
           </div>
         </fieldset>
-        <p class="inicio"><input type="submit" value="Iniciar sesión"></p>
+        <a class="inicio" href= "{{route('inicio')}}"><input type="submit" value="Iniciar sesión"></a>
       </form>
     </main>
-</body>
+</body> 
 </html>

@@ -67,7 +67,7 @@
                 <h1>Febrero</h1> 
                 <input type="date" value="Fecha">
                 <div class="agregar">
-                    <p> <a href="/paginas/registro-pelicula.html">+ Agregar película</a>
+                    <p> <a href="{{route('peliculaRegistro')}}">+ Agregar película</a>
                 </div>
                 <div class="dias">
                     <p class="dom">Domingo</p>
