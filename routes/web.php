@@ -24,7 +24,8 @@ Route::get('/calendario', function () {
 
 Route::get('/iniciarSesion', function () { return view('administradores.iniciarSesion'); });
 
-Route::get('/registroPelicula', function () {
-    return view('administradores.registroPelicula'); //cuando esta dentro de una carpeta, poner nombre de la capeta . nombre del documento
-})->name('peliculaRegistro');
-   
+Route::get('/registroPelicula',function () { return view('administradores.registroPelicula'); })
+->name('peliculaRegistro');
+
+Route::get('/registroGenero', function () { return view('administradores.genero');})
+->name('generoRegistro');

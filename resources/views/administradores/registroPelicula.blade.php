@@ -70,7 +70,7 @@
                         </span>
                     </article>
                     <article class="registro-genero">
-                        <img src="/assets/icons/agregar.png" alt="mas">
+                        <a href="{{route('generoRegistro')}}"><img src="/assets/icons/agregar.png" alt="mas"></a> 
                     </article>
                     <input type="file">
                 </section>

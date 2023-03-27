@@ -92,21 +92,23 @@ header{
     width: 2080px;
 }
 
-header .ini input{
+.ini{
     background-color: var(--morado) ;
     font-family: "cocoLight";
-    padding: 12px;
+    padding: 5px;
     color: var(--blanco);
     font-weight: 700;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 45px;
     border-radius: 52px;
+    display: inline-block;
+    align-items: center;
 
     position: absolute;
-    width: 156px;
+    width: 169px;
     height: 53px;
-    left: 1730px;
-    top: 18px;
+    left: 1900px;
+    top: 140px;
 }
 
 header nav ul img{

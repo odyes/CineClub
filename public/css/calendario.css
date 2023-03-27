@@ -274,7 +274,7 @@ header nav ul img{
     text-indent: 0.01px;
 }
 
-.agregar p{
+.agregar .agregar{
     color:  var(--blanco);
     background-color: var(--morado) ;
     padding: 12px; 
@@ -286,6 +286,25 @@ header nav ul img{
     width: 248px;
     height: 25px;
     left: 1148px;
+    top: 235px;
+    text-decoration:none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}
+
+.agregar .editar{
+    color:  var(--blanco);
+    background-color: var(--morado) ;
+    padding: 12px; 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 52px;
+    position: absolute;
+    width: 248px;
+    height: 25px;
+    left: 1548px;
     top: 235px;
     text-decoration:none;
     display: inline-block;

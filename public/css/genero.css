@@ -1,0 +1,61 @@
+@import url("../css/fonts.css");
+
+:root{
+    --fondoGris: #1E1E1E;
+    --azul: #5CC0DB;
+    --morado: #5C44DB;
+    --negro: #000;
+    --grisOscuro: #171717;
+    --blanco: #fff;
+}
+
+body {
+    font-family: "cocoLight";
+    color: var(--blanco);
+    background-color: var(--fondoGris);
+}
+
+
+
+
+
+.container p{
+    color: var(--azul);
+}
+input[type=""]{
+    background: var(--gris-blanco);
+    border-radius: 12px;
+    color: var(--morado);
+    font-family: "retroyalBold";
+    width: 40%;
+    padding: 14px;
+    font-size: 18px;
+}
+.registro input[type="text"]:focus{
+    border-color: var(--morado);
+    border-width: 3px;
+}
+.registro{
+    position: absolute;
+    width: 1380px;
+    height: 54px;
+    
+}
+input[type="submit"]{
+    background: var(--morado);
+    cursor: pointer;
+    border-radius:12px ;
+    color: var(--blanco);
+    font-family: "cocoLight";
+    font-size: 18px;
+    width: 20%;
+    padding: 14px;
+    left: 10px;
+    top: 230px;
+    position: absolute;
+}
+input[type="submit"]:hover{
+    background: var(--azul);
+
+    
+}

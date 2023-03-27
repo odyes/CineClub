@@ -19,7 +19,6 @@
                 <li class="cal"><a href="{{route('calendario')}}">Calendario</a></li>
                 <li class="pel">Películas</li>
                 <img src="/assets/icons/cuadrito.png" alt="searchBlack">
-                <li class="ini"><a href="/paginas/iniciarSesion.html"><input type="button" value="Iniciar sesión"></a></li>
             </ul>
         </nav>
     </header>
@@ -98,6 +97,7 @@
         </section>
 
         <section class="semana">
+            <a class="ini" href="{{route('peliculaRegistro')}}"> + Agregar película</a>
             <article class="proSem">
                 <h1>Programación semanal</h1>
                 <div class="gato">

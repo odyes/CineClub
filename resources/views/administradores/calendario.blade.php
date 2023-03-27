@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav>  
             <a href="/index.html"><img src="/assets/icons/logo.png" alt="logo"></a>
             <a href="/index.html"></a>
             <ul>
@@ -67,7 +67,8 @@
                 <h1>Febrero</h1> 
                 <input type="date" value="Fecha">
                 <div class="agregar">
-                    <p> <a href="{{route('peliculaRegistro')}}">+ Agregar película</a>
+                    <p class="agregar"> <a href="{{route('peliculaRegistro')}}">+ Agregar película</a></p>
+                    <p class="editar">Editar</p>
                 </div>
                 <div class="dias">
                     <p class="dom">Domingo</p>

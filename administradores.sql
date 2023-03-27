@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost:8889
--- Tiempo de generación: 15-03-2023 a las 21:13:55
+-- Tiempo de generación: 27-03-2023 a las 21:52:40
 -- Versión del servidor: 5.7.39
 -- Versión de PHP: 7.4.33
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `CineClub`
+-- Base de datos: `administradores`
 --
 
 -- --------------------------------------------------------
@@ -41,6 +41,19 @@ INSERT INTO `administradores` (`id`, `usuario`, `contrseña`) VALUES
 (1, 'alesker', '123456'),
 (2, 'alesker', '123456');
 
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `registrosPeliculas`
+--
+
+CREATE TABLE `registrosPeliculas` (
+  `id` int(11) NOT NULL,
+  `titulo` varchar(200) NOT NULL,
+  `img` varchar(255) NOT NULL,
+  `fecha` date NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 --
 -- Índices para tablas volcadas
 --
@@ -52,6 +65,12 @@ ALTER TABLE `administradores`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indices de la tabla `registrosPeliculas`
+--
+ALTER TABLE `registrosPeliculas`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT de las tablas volcadas
 --
 
@@ -60,6 +79,12 @@ ALTER TABLE `administradores`
 --
 ALTER TABLE `administradores`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
+-- AUTO_INCREMENT de la tabla `registrosPeliculas`
+--
+ALTER TABLE `registrosPeliculas`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
